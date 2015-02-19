@@ -1,6 +1,6 @@
 package payroll;
 
-public class Contractor extends Person {
+public class Contractor extends Person implements Payable {
 	public Contractor(String name) {
 		super(name);
 	}

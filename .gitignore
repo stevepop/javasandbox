@@ -1,6 +1,7 @@
 .com/
-payroll/.classpath
-payroll/.project
+.recommenders/
+.classpath
+.project
 payroll/.settings/org.eclipse.jdt.core.prefs
 
 payroll/bin/payroll
