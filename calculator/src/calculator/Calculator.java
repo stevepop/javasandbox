@@ -85,6 +85,18 @@ public class Calculator {
 		
 		// Display the window
 		frame.setVisible(true);
+		
+		CalculatorEngine calcEngine = new CalculatorEngine();
+		button0.addActionListener(calcEngine);
+		button1.addActionListener(calcEngine);
+		button2.addActionListener(calcEngine);
+		button3.addActionListener(calcEngine);
+		button4.addActionListener(calcEngine);
+		button5.addActionListener(calcEngine);
+		button6.addActionListener(calcEngine);
+		button7.addActionListener(calcEngine);
+		button8.addActionListener(calcEngine);
+		button9.addActionListener(calcEngine);
 	}
 	
 	public static void main(String[] args) {
